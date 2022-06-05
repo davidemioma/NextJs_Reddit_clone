@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  background: rgb(226 232 240);
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.feed {
+  height: 70vh;
+  flex: 1;
+}
+
+.subreddit-feed {
+  height: 50vh;
+}
+
+@media screen and (min-width: 900px) {
+  .flex {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .app {
+    max-width: 64rem;
+  }
+}

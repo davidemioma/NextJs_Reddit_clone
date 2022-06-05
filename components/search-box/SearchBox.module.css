@@ -1,0 +1,73 @@
+.form,
+.container input,
+.body input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.form {
+  width: 100%;
+  margin-top: 1.7rem;
+  background: #fff;
+  border: 1px solid rgb(209 213 219);
+}
+
+.container,
+.body {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container input,
+.body input {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.container input {
+  background: rgb(249 250 251);
+}
+
+.container input::placeholder {
+  color: #b3b3b3;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: rgb(209 213 219);
+  cursor: pointer;
+}
+
+.icon_selected {
+  color: rgb(147 197 253);
+}
+
+.others {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.body p {
+  min-width: 90px;
+}
+
+.body input {
+  background: rgb(239 246 255);
+}
+
+.errors p {
+  color: red;
+  margin-bottom: 0.3rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: rgb(96 165 250);
+  color: #fff;
+  font-size: 1rem;
+}

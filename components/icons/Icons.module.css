@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons,
+.nav_btn {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 29px;
+  height: 29px;
+  color: #595959;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.line {
+  height: 40px;
+  border: 0.5px solid#f2f2f2;
+}
+
+.nav_btn {
+  background: transparent;
+  border: 0.5px solid#a6a6a6;
+  gap: 0.5rem;
+  padding: 0.4rem;
+}
+
+.nav_btn p {
+  color: #a6a6a6;
+  font-size: 1rem;
+}
+
+.nav_btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.profile {
+  text-align: left;
+}
+
+.profile p {
+  white-space: nowrap;
+}
+
+.container .username {
+  color: black;
+  font-weight: bold;
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 499px) {
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .container .username {
+    width: 40px;
+  }
+}

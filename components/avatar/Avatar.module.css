@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 0.5px solid rgb(209 213 219);
+  overflow: hidden;
+}
+
+.large {
+  width: 80px;
+  height: 80px;
+}

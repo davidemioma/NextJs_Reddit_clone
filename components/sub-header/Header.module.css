@@ -1,0 +1,36 @@
+.top {
+  height: 50px;
+  background: rgb(248 113 113);
+}
+
+.container {
+  background: #fff;
+}
+
+.intro {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.avatar {
+  transform: translateY(-20%);
+}
+
+.texts {
+  margin-top: 0.3rem;
+}
+
+.texts h1 {
+  font-weight: 400;
+}
+
+.texts p {
+  font-size: 0.9rem;
+  color: rgb(156 163 175);
+}
+
+@media screen and (max-width: 768px) {
+  .texts h1 {
+    font-size: 1.5rem;
+  }
+}
